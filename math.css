@@ -3,7 +3,7 @@ body
 	background:url("download.jfif");
 	background-size: cover;
 	background-position: center;
-	text-align: center;
+
 }
 
 	.login_div1 , .login_div2
@@ -12,13 +12,19 @@ body
 		padding: 10px;
 		float: none;
 		border-radius: 15px;
+		color: black;
 	}
 
 
-#player1_name , #player2_name
+#player1 , #player2
 {
 	display: inline-block;
 	margin-left: 20px;
+	color: aliceblue;
+}
+
+#player1score,#player2score{
+	color: aliceblue;
 }
 #word
 {
